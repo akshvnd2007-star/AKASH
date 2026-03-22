@@ -1,6 +1,6 @@
 let index=0;
 const slides=document.getElementById("slides");
-const totalSlides = slide.children.length;
+const totalSlides = slides.children.length;
 function showSlide(){
 slides.style.transform = `translateX(-${index * 500}px)`;
 }
